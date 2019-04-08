@@ -1,9 +1,11 @@
-import styled, { themeGet, themePx } from 'util/style'
+import styled from 'util/style'
+import { Flex } from '@rebass/grid'
 
-const Wrapper = styled.div`
-  background: ${themeGet('colors.primary.800')};
-  padding: ${themePx('space.3')} ${themePx('space.3')};
-  margin-bottom: ${themePx('space.4')};
+const Wrapper = styled(Flex)`
+  background: hsl(204, 16%, 34%);
+  height: 156px;
+  flexdirection: row;
+  align-items: center;
 `
 
 export default Wrapper

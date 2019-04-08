@@ -1,17 +1,17 @@
 module.exports = {
-  siteUrl: `https://www.example.com`,
-  siteTitle: `Gatsby Starter Styled`,
-  siteTitleAlt: `Gatsby Starter Styled`,
-  siteTitleShort: `Gatsby Styled`,
-  siteDescription: `Kick off your next, great Gatsby project with this starter.`,
+  siteUrl: `https://www.loungingbear.com`,
+  siteTitle: `Lounging Bear`,
+  siteTitleAlt: `Lounging Bear`,
+  siteTitleShort: `Lounging Bear`,
+  siteDescription: `Welcome to the future site of Lounging Bear, a Chicago-based company that produces, distributes and sells high-quality sofas with a focus on comfort, design and convenience.`,
   manifest: {
-    themeColor: `#253688`,
-    backgroundColor: `#253688`,
+    themeColor: `#fff`,
+    backgroundColor: `#fff`,
   },
   googleAnalyticsId: `UA-XXXXX`,
-  facebook: `Your optional Facebook App ID`,
-  twitter: `Your Twitter username`,
+  facebook: ``,
+  twitter: ``,
   schema: {
-    author: `Jane Doe`,
+    author: `Lounging Bear`,
   },
 }

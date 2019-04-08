@@ -1,24 +1,15 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-
-import { Link } from 'components/Link'
 import { Container } from 'components/Grid'
 
 import Wrapper from './Wrapper'
-import Title from './Title'
+import Logo from './Logo'
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <Wrapper as="header">
-    <Container maxWidth="700px">
-      <Title>
-        <Link to="/">{siteTitle}</Link>
-      </Title>
+    <Container maxWidth="700px" justifyContent="center">
+      <Logo />
     </Container>
   </Wrapper>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string.isRequired,
-}
 
 export default Header
