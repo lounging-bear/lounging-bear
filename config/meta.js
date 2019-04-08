@@ -8,7 +8,7 @@ module.exports = {
     themeColor: `#fff`,
     backgroundColor: `#fff`,
   },
-  googleAnalyticsId: `UA-XXXXX`,
+  googleAnalyticsId: `UA-137918795-1`,
   facebook: ``,
   twitter: ``,
   schema: {
