@@ -5,7 +5,6 @@
  */
 const GoogleAnalytics = require('react-ga')
 const config = require('./config/meta')
-require('typeface-open-sans')
 
 /**
  * Initialize Google Analytics

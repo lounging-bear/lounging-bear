@@ -8,6 +8,8 @@ import { Box } from 'components/Grid'
 
 import config from '../../../config/meta'
 
+require('typeface-open-sans')
+
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
     <>
