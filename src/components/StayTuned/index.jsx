@@ -10,7 +10,7 @@ const Wrapper = styled(Flex)`
 
 const Hl = styled(Box)`
   color: #3e4042;
-  font-family: 'Open Sans';
+  font-family: 'Azo Sans Md', 'Open Sans', Helvetica;
   text-transform: uppercase;
   font-size: 48px;
   font-weight: 700;

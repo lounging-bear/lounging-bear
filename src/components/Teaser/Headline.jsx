@@ -5,7 +5,7 @@ import { Box } from 'components/Grid'
 
 const Hl = styled(Box)`
   color: #3e4042;
-  font-family: 'Open Sans';
+  font-family: 'Azo Sans Md', 'Open Sans', Helvetica;
   text-transform: uppercase;
   font-size: 48px;
   line-height: normal;

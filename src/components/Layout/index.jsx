@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { ThemeProvider, theme } from 'util/style'
+import { GlobalStyles } from 'util/style/GlobalStyles'
 
 import Header from 'components/Header'
 import Footer from 'components/Footer'
@@ -13,6 +14,7 @@ require('typeface-open-sans')
 const Layout = ({ children }) => (
   <ThemeProvider theme={theme}>
     <>
+      <GlobalStyles />
       <Header siteTitle={config.siteTitle || config.siteTitleAlt} />
       {children}
       <Box mt={3}>
