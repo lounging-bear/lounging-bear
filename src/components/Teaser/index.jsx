@@ -15,10 +15,7 @@ const Teaser = () => (
         that produces, distributes and sells high-quality sofas with a focus on
         comfort, design and convenience.{' '}
       </Paragraph>
-      <Paragraph>
-        We are currently building our website and aim to launch it on <br />
-        May 1, 2019.
-      </Paragraph>
+      <Paragraph>We are currently building our website.</Paragraph>
     </Container>
   </Container>
 )
